@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2ef29;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+#formulario, #resultado, #historial {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 60%;
+}
+
+button {
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+/* Estilos para resultados */
+#resultado {
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+/* Mensajes de error */
+.error {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* Mensajes de Ã©xito */
+.success {
+    color: #27ae60;
+    font-weight: bold;
+}
