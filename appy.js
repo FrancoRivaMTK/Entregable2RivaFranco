@@ -3,7 +3,7 @@ const rutas = [
     { nombre: "Ruta de Paseo", distancia: 8 },
     { nombre: "Ruta del Río", distancia: 15 },
     { nombre: "Ruta de la Montaña", distancia: 30 },
-    { nombre: "Entrenamiento de Fondo", distancia: 70 },
+    { nombre: "Entrenamiento de Fondo", distancia: 60 },
 ];
 
 
