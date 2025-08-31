@@ -7,13 +7,14 @@ const rutas = [
 ];
 
 
+
 const selectRuta = document.getElementById("ruta");
 rutas.forEach((ruta, index) => {
     let option = document.createElement("option");
     option.value = index;
     option.textContent = `${ruta.nombre} - ${ruta.distancia} km`;
     selectRuta.appendChild(option);
-});
+})
 
 // Evento principal
 document.getElementById("btnIniciar").addEventListener("click", iniciarSimulador);
